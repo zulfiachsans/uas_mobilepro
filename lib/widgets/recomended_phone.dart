@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, prefer_const_constructors_in_immutables, prefer_const_literals_to_create_immutables, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
-import 'package:uas_mobpro/models/phone.dart';
-import 'package:uas_mobpro/style.dart';
+import 'package:aas_mobpro/models/phone.dart';
+import 'package:aas_mobpro/style.dart';
 
 import '../pages/detail.dart';
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uas_mobpro/style.dart';
+import 'package:aas_mobpro/style.dart';
 
 class BottomNavbarItem extends StatelessWidget {
   final String imageUrl;

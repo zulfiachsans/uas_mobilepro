@@ -1,9 +1,9 @@
 // ignore_for_file: unnecessary_const, prefer_const_constructors, sized_box_for_whitespace, use_key_in_widget_constructors, unused_element, avoid_unnecessary_containers, prefer_typing_uninitialized_variables, unused_local_variable
 
 import 'package:flutter/material.dart';
-import 'package:uas_mobpro/models/popular_phone.dart';
-import 'package:uas_mobpro/widgets/phone_card.dart';
-import 'package:uas_mobpro/widgets/recomended_phone.dart';
+import 'package:aas_mobpro/models/popular_phone.dart';
+import 'package:aas_mobpro/widgets/phone_card.dart';
+import 'package:aas_mobpro/widgets/recomended_phone.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
