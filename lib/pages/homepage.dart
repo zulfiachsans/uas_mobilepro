@@ -166,7 +166,7 @@ class HomePage extends StatelessWidget {
                   }
                   return Center(
                     child: CircularProgressIndicator(
-                      backgroundColor: colorPrimary,
+                      backgroundColor: greyColor,
                     ),
                   );
                 },
