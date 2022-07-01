@@ -9,6 +9,7 @@ import 'dart:convert';
 
 import '../models/phone.dart';
 import '../style.dart';
+import '../widgets/bottom_navbar_item.dart';
 
 class HomePage extends StatelessWidget {
   final String apiUrl = "https://dummyjson.com/products?skip=0&limit=5";
@@ -178,6 +179,39 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: Container(
+        height: 65,
+        width: MediaQuery.of(context).size.width - (2 * edge),
+        margin: EdgeInsets.symmetric(
+          horizontal: edge,
+        ),
+        decoration: BoxDecoration(
+          color: Color(0xffF6F7F8),
+          borderRadius: BorderRadius.circular(23),
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            BottomNavbarItem(
+              imageUrl: 'assets/images/icon_home.png',
+              isActive: true,
+            ),
+            BottomNavbarItem(
+              imageUrl: 'assets/images/icon_email.png',
+              isActive: false,
+            ),
+            BottomNavbarItem(
+              imageUrl: 'assets/images/icon_card.png',
+              isActive: false,
+            ),
+            BottomNavbarItem(
+              imageUrl: 'assets/images/icon_love.png',
+              isActive: false,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
