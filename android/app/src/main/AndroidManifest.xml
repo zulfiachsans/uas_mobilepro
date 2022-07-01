@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.uas_mobpro">
+    package="com.example.aas_mobpro">
    <application
-        android:label="uas_mobpro"
+        android:label="aas_mobpro"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

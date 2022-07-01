@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "uas_mobpro" "\0"
+            VALUE "FileDescription", "aas_mobpro" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "uas_mobpro" "\0"
+            VALUE "InternalName", "aas_mobpro" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "uas_mobpro.exe" "\0"
-            VALUE "ProductName", "uas_mobpro" "\0"
+            VALUE "OriginalFilename", "aas_mobpro.exe" "\0"
+            VALUE "ProductName", "aas_mobpro" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

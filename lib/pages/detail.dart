@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors_in_immutables, use_key_in_widget_constructors, deprecated_member_use, unused_element, prefer_const_constructors, prefer_const_literals_to_create_immutables, duplicate_ignore, sized_box_for_whitespace
+// ignore_for_file: prefer_const_constructors_in_immutables, use_key_in_widget_constructors, deprecated_member_use, unused_element, prefer_const_constructors, prefer_const_literals_to_create_immutables, duplicate_ignore, sized_box_for_whitespace, non_constant_identifier_names
 
 import 'package:flutter/material.dart';
 import 'package:aas_mobpro/models/phone.dart';
