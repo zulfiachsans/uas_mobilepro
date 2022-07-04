@@ -1,7 +1,8 @@
 // ignore_for_file: sized_box_for_whitespace, prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:aas_mobpro/pages/homepage.dart';
-import 'package:aas_mobpro/style.dart';
+
+import '../../style.dart';
+import '../homepage.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);

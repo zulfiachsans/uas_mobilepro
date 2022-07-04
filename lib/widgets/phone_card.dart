@@ -1,8 +1,9 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
-import 'package:aas_mobpro/models/popular_phone.dart';
-import 'package:aas_mobpro/style.dart';
+
+import '../models/popular_phone.dart';
+import '../style.dart';
 
 class PhoneCard extends StatelessWidget {
   final PopularPhone popularPhone;

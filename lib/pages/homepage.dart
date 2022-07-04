@@ -1,15 +1,15 @@
 // ignore_for_file: unnecessary_const, prefer_const_constructors, sized_box_for_whitespace, use_key_in_widget_constructors, unused_element, avoid_unnecessary_containers, prefer_typing_uninitialized_variables, unused_local_variable
 
 import 'package:flutter/material.dart';
-import 'package:aas_mobpro/models/popular_phone.dart';
-import 'package:aas_mobpro/widgets/phone_card.dart';
-import 'package:aas_mobpro/widgets/recomended_phone.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 import '../models/phone.dart';
+import '../models/popular_phone.dart';
 import '../style.dart';
 import '../widgets/bottom_navbar_item.dart';
+import '../widgets/phone_card.dart';
+import '../widgets/recomended_phone.dart';
 
 class HomePage extends StatelessWidget {
   final String apiUrl = "https://dummyjson.com/products?skip=0&limit=5";
